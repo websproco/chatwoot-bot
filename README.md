@@ -2,6 +2,11 @@
 
 This is a FastAPI application with an assistant API endpoint.
 
+# Create a virtual env
+
+1. python3 -m venv .venv
+2. source .venv/bin/activate
+
 ## Setup
 
 1. Clone the repository
