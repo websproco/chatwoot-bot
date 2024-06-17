@@ -19,8 +19,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-from app.routes import root, bot, get_conversation_status
+from app.routes import root, bot, get_conversation_status, assign_conversation
 
 app.include_router(root.router)
 app.include_router(bot.router)
 app.include_router(get_conversation_status.router)
+app.include_router(assign_conversation.router)
