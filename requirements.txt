@@ -5,3 +5,6 @@ python-dotenv==1.0.1
 requests==2.32.3
 simple_chatwoot @ git+https://github.com/fulit103/simple-chatwoot.git@89c8125e880316142d1c8b6fe10b628f53ac0b73
 httpx==0.27.0
+celery==5.4.0
+redis==5.0.6
+flower==2.0.1
